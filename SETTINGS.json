@@ -1,0 +1,7 @@
+{
+  "gcp-project-name": "My First Project",
+  "gcp-bucket-project-dir": "seizure_detection_data/notebooks/seizure_detection_spark_gcp",
+  "data-cache-dir": "classifer_models",
+  "dataset-dir": "seizure-data",
+  "submission-dir": "submissions"
+}
