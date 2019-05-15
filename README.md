@@ -26,9 +26,15 @@ pip install scipy
 pip install sklearn
 pip install gcsfs
 ```
-6. Run CrossValidation ipython file to tune model parameters based on validation result
-7. Run ModelTraining ipython file to train model with full scope of training data and save trained model
-8. Run Predict ipython file to predict test data and generate prediction result csv files.
+6. Open CrossValidation, ModelTraining, Predict ipython files and speficy following variable
+```py
+num_nodes = 4  # number of worker nodes of the cluster
+subjects = ['Patient_8']# list of subjects to process 
+gs_dir = "gs://seizure_detection_data/notebooks/seizure_detection_spark_gcp"#repo dir on gcp bucket
+```
+7. Run CrossValidation ipython file to tune model parameters based on validation result
+8. Run ModelTraining ipython file to train model with full scope of training data and save trained model
+9. Run Predict ipython file to predict test data and generate prediction result csv files.
 
 
 
